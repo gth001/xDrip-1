@@ -71,11 +71,11 @@ public class BIGChart extends WatchFace implements SharedPreferences.OnSharedPre
     public long mTimeStepsRcvd = 0;
     public long sgvLevel = 0;
     public int batteryLevel = 1;
-    public int ageLevel = 1;
-    public int highColor = Color.YELLOW;
+    public int ageLevel = 0;
+    public int highColor = Color.BLACK;
     public int lowColor = Color.RED;
-    public int midColor = Color.WHITE;
-    public int pointSize = 2;
+    public int midColor = Color.BLACK;
+    public int pointSize = 3;
     public boolean lowResMode = false;
     public boolean layoutSet = false;
     public int missed_readings_alert_id = 818;
